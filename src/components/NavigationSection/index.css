@@ -1,0 +1,163 @@
+.navigation-section {
+  display: flex;
+  justify-content: CENTER;
+  align-items: center;
+  position: absolute;
+  width: 305px;
+  height: 989px;
+  left: 28px;
+  top: 46px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.hrLine {
+  position: absolute;
+  width: 212.5px;
+  height: 0px;
+  left: 45px;
+  top: 132.5px;
+  border: 1px solid #a1e0ff;
+}
+.LinkItem {
+  text-decoration: none;
+}
+.websitelogo {
+  position: absolute;
+  top: 7.98%;
+  bottom: 88.06%;
+}
+.adduser-image {
+  position: absolute;
+  left: 4.64%;
+  right: 94.32%;
+  top: 30.8%;
+  bottom: 70.35%;
+  background-color: white;
+}
+.weather-image {
+  position: absolute;
+  left: 4.64%;
+  right: 64.45%;
+  top: 32.5%;
+  bottom: 68.27%;
+  background: #ffffff;
+}
+
+.users-image {
+  position: absolute;
+  left: 4.64%;
+  right: 64.45%;
+  position: absolute;
+  top: 30.35%;
+  bottom: 73.8%;
+  background: #ffffff;
+}
+.AddUserTab {
+  list-style: none;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 45px;
+  top: 200px;
+  color: #a1e0ff;
+  border-radius: 10px;
+}
+
+.selectedAddUserTab {
+  list-style: none;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 45px;
+  top: 200px;
+  background: #a2e0ff;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.AdduserTabText {
+  position: absolute;
+  width: 74px;
+  height: 21px;
+  left: 50.5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.usersTabText {
+  position: absolute;
+  width: 47px;
+  height: 21px;
+  left: 50.5px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.selectedUsersTab {
+  list-style: none;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 45px;
+  top: 260px;
+  color: #ffffff;
+  background: #a2e0ff;
+  border-radius: 10px;
+}
+.UsersTab {
+  list-style: none;
+  list-style: none;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 45px;
+  top: 260px;
+  color: #a2e0ff;
+  border-radius: 10px;
+}
+.selectedWeatherTab {
+  list-style: none;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 45px;
+  top: 322px;
+  background: #a2e0ff;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.WeatherTab {
+  list-style: none;
+  position: absolute;
+  width: 225px;
+  height: 60px;
+  left: 45px;
+  top: 322px;
+  color: #a2e0ff;
+  border-radius: 10px;
+}
+.weatherTabText {
+  position: absolute;
+  width: 67px;
+  height: 21px;
+  position: absolute;
+  width: 74px;
+  height: 21px;
+  left: 50.5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+@media screen and (min-width: 768px) {
+  .navigation-section {
+    height: 75%;
+  }
+}

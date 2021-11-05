@@ -1,0 +1,244 @@
+.weather-bg {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #ebf0f4;
+}
+.temperatureText {
+  position: absolute;
+  width: 145px;
+  height: 160px;
+  left: 750px;
+  top: 425px;
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  line-height: 160px;
+  color: #ffffff;
+}
+.humidityText {
+  position: absolute;
+  width: 122px;
+  height: 122px;
+  left: 1080px;
+  top: 475px;
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 122px;
+  color: #ffffff;
+}
+.pressureTexts {
+  position: absolute;
+  width: 225px;
+  height: 122px;
+  left: 1280px;
+  top: 474px;
+  font-family: Podkova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 122px;
+  color: #ffffff;
+}
+.select-state-heading {
+  position: absolute;
+  width: 118px;
+  height: 26px;
+  left: 690px;
+  top: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #646464;
+}
+.select-state {
+  position: absolute;
+  width: 581px;
+  height: 50px;
+  left: 841px;
+  top: 362px;
+
+  background: #ededed;
+  border-radius: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7c7c7c;
+}
+.weather-container {
+  position: absolute;
+  width: 1505px;
+  height: 792px;
+  left: 379px;
+  top: 243px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.weather-display {
+  position: absolute;
+  width: 1008px;
+  height: 212px;
+  left: 627px;
+  top: 495px;
+  background: #a2e0ff;
+  border-radius: 23px;
+}
+.temperature-heading {
+  position: absolute;
+  width: 102px;
+  height: 21px;
+  left: 739px;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 21px;
+}
+.humidity-heading {
+  position: absolute;
+  width: 72px;
+  height: 21px;
+  left: 1100px;
+  top: 504px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.pressure-heading {
+  position: absolute;
+  width: 71px;
+  height: 21px;
+  left: 1400px;
+  top: 504px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.vl1 {
+  position: absolute;
+  width: 0px;
+  height: 124px;
+  left: 333px;
+  top: 45px;
+  border: 5px solid #ffffff;
+}
+.vl2 {
+  position: absolute;
+  width: 0px;
+  height: 124px;
+  left: 640px;
+  top: 45px;
+  border: 5px solid #ffffff;
+}
+.weather-heading {
+  position: absolute;
+  width: 67px;
+  height: 21px;
+  left: 398px;
+  top: 196px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .weather-container {
+    width: 70%;
+    height: 60%;
+    top: 203px;
+  }
+  .weather-heading {
+    top: 156px;
+  }
+  .weather-bg {
+    width: 100%;
+    min-height: 100%;
+  }
+  .select-state-heading {
+    left: 430px;
+  }
+  .select-state {
+    left: 570px;
+  }
+  .weather-display {
+    left: 527px;
+    width: 50vw;
+  }
+  .temperature-heading {
+    left: 589px;
+  }
+  .humidity-heading {
+    left: 800px;
+  }
+  .pressure-heading {
+    height: 21px;
+    left: 1030px;
+  }
+  .vl1 {
+    height: 124px;
+    left: 200px;
+    top: 45px;
+  }
+  .vl2 {
+    height: 124px;
+    left: 400px;
+    top: 45px;
+  }
+  .temperatureText {
+    position: absolute;
+    width: 145px;
+    height: 160px;
+    left: 600px;
+    top: 450px;
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    line-height: 160px;
+    color: #ffffff;
+  }
+  .humidityText {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 780px;
+    top: 470px;
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    line-height: 122px;
+    color: #ffffff;
+  }
+  .pressureTexts {
+    position: absolute;
+    width: 225px;
+    height: 122px;
+    left: 950px;
+    top: 494px;
+    font-family: Podkova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 122px;
+    color: #ffffff;
+  }
+}

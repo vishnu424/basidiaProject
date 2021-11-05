@@ -1,0 +1,41 @@
+.cardItem {
+  width: 290px;
+  height: 170px;
+  margin: 5px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectedCardItem {
+  width: 290px;
+  height: 170px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  box-shadow: 2px 4px 12px 1px rgba(108, 108, 108, 0.25);
+  border-radius: 10px;
+}
+.profileIcon {
+  width: 66px;
+  height: 66px;
+  margin-right: 15px;
+}
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  height: 62px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 0px;
+  color: #808080;
+}

@@ -1,0 +1,261 @@
+.add-users-bgcontainer {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  border-radius: 0px;
+  padding-left: -960px;
+  padding-top: -1749px;
+  background: #ebf0f4;
+}
+.emailErrMsg {
+  position: absolute;
+  width: 185px;
+  height: 26px;
+  left: 440px;
+  top: 188px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffa2a2;
+}
+.phoneErrMsg {
+  position: absolute;
+  left: 440px;
+  top: 290px;
+  position: absolute;
+  width: 400px;
+  height: 26px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #ffa2a2;
+}
+.form-heading {
+  position: absolute;
+  width: 74px;
+  height: 21px;
+  left: 398px;
+  top: 196px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.usernameLabel {
+  position: absolute;
+  width: 100px;
+  height: 26px;
+  left: 260px;
+  top: 65px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #808080;
+}
+.usernameInput {
+  position: absolute;
+  width: 581px;
+  height: 50px;
+  left: 430px;
+  top: 70px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #646464;
+  background: #ededed;
+  border-radius: 10px;
+}
+.form-container {
+  position: absolute;
+  width: 1505px;
+  height: 792px;
+  left: 379px;
+  top: 243px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.emailLabel {
+  position: absolute;
+  width: 55px;
+  height: 26px;
+  left: 260px;
+  top: 146px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #808080;
+}
+.emailInput {
+  position: absolute;
+  width: 581px;
+  height: 50px;
+  left: 430px;
+  top: 154px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #646464;
+  background: #ededed;
+  border: 2px solid #ffa2a2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.phoneLabel {
+  position: absolute;
+  width: 63px;
+  height: 26px;
+  left: 260px;
+  top: 250px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #808080;
+}
+.phoneInput {
+  position: absolute;
+  width: 581px;
+  height: 50px;
+  left: 430px;
+  top: 258px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #646464;
+  background: #ededed;
+  border: 2px solid #ffa2a2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.DOBLabel {
+  position: absolute;
+  width: 44px;
+  height: 26px;
+  left: 260px;
+  top: 354px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #808080;
+}
+.DOBInput {
+  position: absolute;
+  width: 581px;
+  height: 50px;
+  left: 430px;
+  top: 360px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #646464;
+
+  background: #ededed;
+  border-radius: 10px;
+}
+.stateLabel {
+  position: absolute;
+  width: 52px;
+  height: 26px;
+  left: 260px;
+  top: 438px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #808080;
+}
+.stateInput {
+  position: absolute;
+  width: 581px;
+  height: 50px;
+  left: 430px;
+  top: 445px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #646464;
+
+  background: #ededed;
+  border-radius: 10px;
+}
+.submitButton {
+  position: absolute;
+  width: 581px;
+  height: 60px;
+  left: 430px;
+  top: 518px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+  background: #a2e0ff;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 70%;
+    height: 60%;
+    top: 203px;
+  }
+  .form-heading {
+    top: 156px;
+  }
+  .add-users-bgcontainer {
+    width: 100%;
+    min-height: 100%;
+  }
+  .labelLaptop {
+    left: 100px;
+  }
+  .inputLaptop {
+    left: 270px;
+  }
+}

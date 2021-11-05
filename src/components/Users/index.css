@@ -1,0 +1,137 @@
+.user-bg {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #ebf0f4;
+}
+.searchIcon {
+  position: absolute;
+  left: 49.69%;
+  right: 49.17%;
+  top: 29.26%;
+  bottom: 68.7%;
+}
+.listViewContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  left: 0px;
+  top: 420px;
+}
+.cardListContainer {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  height: 255px;
+  left: 0px;
+  top: 165px;
+}
+.users-heading {
+  position: absolute;
+  width: 46px;
+  height: 21px;
+  left: 398px;
+  top: 196px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.users-container {
+  position: absolute;
+  width: 1505px;
+  height: 792px;
+  left: 379px;
+  top: 243px;
+
+  background: #ffffff;
+  border-radius: 30px;
+}
+.search-heading {
+  position: absolute;
+  width: 56px;
+  height: 21px;
+  left: 42px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #808080;
+}
+.search-input {
+  position: absolute;
+  width: 581px;
+  height: 45px;
+  left: 42px;
+  top: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #7c7c7c;
+  background: #ededed;
+  border-radius: 10px;
+}
+.cards-list-heading {
+  position: absolute;
+  width: 73px;
+  height: 21px;
+  left: 42px;
+  top: 380px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #808080;
+}
+.cardsHeading {
+  position: absolute;
+  width: 81px;
+  height: 21px;
+  left: 42px;
+  top: 130px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #808080;
+}
+@media screen and (min-width: 768px) {
+  .user-bg {
+    width: 100%;
+    min-height: 100%;
+  }
+  .users-container {
+    width: 70%;
+    height: 60%;
+    top: 203px;
+  }
+  .users-heading {
+    top: 156px;
+  }
+  .listViewContainer {
+    width: 65%;
+  }
+  .cardListContainer {
+    width: 65%;
+  }
+  .searchIcon {
+    top: 25.26%;
+    left: 70.69%;
+  }
+}

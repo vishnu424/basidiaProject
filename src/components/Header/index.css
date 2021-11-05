@@ -1,0 +1,56 @@
+.header-container {
+  position: absolute;
+  width: 1505px;
+  height: 103px;
+  left: 379px;
+  top: 46px;
+  border-radius: 30px;
+  background: #ffffff;
+  border-radius: 30px;
+}
+.time-and-date {
+  position: absolute;
+  width: 231px;
+  height: 28px;
+  left: 30px;
+  top: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.profile-icon {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 1400px;
+  top: 20px;
+}
+.user-profile-name {
+  position: absolute;
+  height: 21px;
+  left: 1220px;
+  top: 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #646464;
+}
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 70%;
+  }
+  .profile-icon {
+    left: 700px;
+  }
+  .user-profile-name {
+    left: 800px;
+  }
+}
